@@ -17,10 +17,7 @@
 package com.example.demo.demos.web;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.Arrays;
 
@@ -28,6 +25,7 @@ import java.util.Arrays;
  * @author <a href="mailto:chenxilzx1@gmail.com">theonefx</a>
  */
 @Controller
+//@CrossOrigin(origins = "*")
 public class BasicController {
 
     // http://127.0.0.1:8080/hello?name=lisi
